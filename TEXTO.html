@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto a Voz</title>
+    <link rel="stylesheet" href="css/TEXTO.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Josman</div>
+        <nav>
+            <ul>
+                <li><a href="paquetes.html">Paquetes</a></li>
+                <li><a href="#">Historial</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    
+    <section class="hero">
+        <h1>Gratis <span class="highlight">texto a voz</span></h1>
+        <p>Josman es una herramienta gratuita de texto a voz (TTS) en línea...</p>
+        <div class="cta-buttons">
+            <button class="primary-btn">Prueba TTS</button>
+            <button class="secondary-btn">Más información</button>
+        </div>
+    </section>
+    
+    <section class="tts-container">
+        <div class="tabs">
+            <button class="active">Texto a voz</button>
+            <button>Archivo a voz</button>
+        </div>
+        <div class="text-area-container">
+            <textarea id="text-input" placeholder="Ingresa tu texto aquí..."></textarea>
+            <div class="controls">
+                <span>0 / 20000</span>
+                <button>Pausas</button>
+                <button>Borrar texto</button>
+            </div>
+        </div>
+        <button id="generate-btn">Generar</button>
+    </section>
+    
+    <section class="features">
+        <h2>¿Cuáles son las características de Josman?</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <span class="icon">🎙️</span>
+                <h3>Voz AI real</h3>
+                <p>Genera sonidos extremadamente cercanos a la calidad humana.</p>
+            </div>
+          
+            <div class="feature">
+                <span class="icon">🎧</span>
+                <h3>Convierte fácilmente texto a audio</h3>
+                <p>Escribe o copia texto y conviértelo en voz.</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
